@@ -1,0 +1,49 @@
+button {
+  color: white; 
+  background-color: black;
+  border: none;
+  height: 30px;
+  width: 90px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(45, 45, 45);
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20%;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
